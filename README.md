@@ -178,7 +178,7 @@ Security architects use established governance frameworks to align IT operations
 
 **COBIT** 
 
-Organizations implement COBIT to establish effective IT governance and management. Developed by Information Systems Audit and Control Association (ISACA), COBIT helps enterprises align IT initiatives with business goals while managing risk and optimizing resources.
+Organizations implement COBIT to establish effective IT governance and management. Developed by Information Systems Audit and Control Association (ISACA), COBIT helps enterprises align IT initiatives with business goals while managing risk and optimizing resources. `https://www.isaca.org/`
 
 COBIT 2019 organizes content around five domains:
 * **Evaluate, Direct and Monitor (EDM)**
@@ -191,7 +191,7 @@ The framework rests on six governance principles and seven enablers (such as pro
 
 **ITIL**  
 
-Organizations adopt ITIL to deliver high-quality IT services that create value for the business. ITIL 4 emphasizes a holistic, flexible approach centered on the Service Value System (SVS).
+Organizations adopt ITIL to deliver high-quality IT services that create value for the business. ITIL 4 emphasizes a holistic, flexible approach centered on the Service Value System (SVS). `https://www.itil.com/`
 
 Key components of ITIL 4 include:
 * **Four Dimensions of Service Management**: Organizations and people, Information and technology, Partners and suppliers, and Value streams and processes.
