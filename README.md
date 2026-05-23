@@ -12,6 +12,9 @@ The content strives to provide clear, structured coverage of core governance and
 
 All sections reference primary authoritative sources including official NIST publications, DoD Directives and Instructions, and DISA resources. Comparison tables, governance pyramids, and scenario-based explanations are used to illustrate how these components work together in practical security architecture and engineering decisions.
 
+> For purposes of maintaining the current legal structure, I will be using the term Department of Defense (DoD) throughout. There are efforts to codify Executive Order 14347 (5 Sep 2025), but until Congress officially changes the name, Department of War (DoW) only applies to public communications within the Executive Branch, ceremonial contexts, and non-statutory documents.
+> As it currently stands, DoW only applies to pre-1947 documentation, and is not presently relevant. I am aware that this could change should the vote pass in Congress to codify and implement the legal name change. So while DoD and DoW can be used interchangably, I will use DoD for this certification context.
+
 ---
 
 ## 1.1 Given a set of organizational security requirements, implement the appropriate governance components.
