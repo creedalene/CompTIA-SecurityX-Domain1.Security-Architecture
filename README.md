@@ -1,6 +1,6 @@
 # CompTIA SecurityX (CAS-005) Domain 1.0 Governance, Risk, and Compliance
 
-The notes are maintained by Cree Dalene, a Senior Security Architect, to support ongoing professional development and to stay current with the latest security architecture principles, frameworks, and practices relevant to senior-level roles in enterprise and defense environments.
+The notes are maintained by Cree Dalene, a Senior Cybersecurity Assessor and Engineer, to support ongoing professional development and to stay current with the latest security architecture principles, frameworks, and practices relevant to senior-level roles in enterprise and defense environments.
 
 The content strives to provide clear, structured coverage of core governance and architecture topics, including:
 
@@ -57,7 +57,7 @@ Senior leadership defines standards as specific technical requirements and hardw
 
 In the Department of Defense, standards specify the “how” behind policy requirements. The DoD adopts external frameworks and internal instructions as mandatory standards. Key examples include:
 
-* **DoDI 8510.01: Risk Management Framework (RMF) for DoD Information Technology (IT)** establishes the RMF process for the DoD. This standard mandates the exact lifecycle for authorizing IT systems on DoD networks, replaces the old DIACAP system, and ties directly to NIST SP 800-37 and 800-53.
+* **DoDI 8510.01: Risk Management Framework (RMF) for DoD Information Technology (IT)** establishes the Risk Management Framework (RMF) process for the DoD. This standard mandates the exact lifecycle for authorizing IT systems on DoD networks, replaces the old DIACAP system, and ties directly to NIST SP 800-37 and 800-53.
 * **NIST Special Publications (SP 800-53 and SP 800-171)** serve as mandatory standards for the DoD. NIST SP 800-53 provides the catalog of security and privacy controls for federal information systems, while NIST SP 800-171 mandates protection requirements for defense contractors handling CUI on non-federal systems.
 * **DFARS 252.204-7012 (Safeguarding Covered Defense Information)** applies as a contractual standard to defense contractors. This clause legally requires contractors to implement NIST SP 800-171 and report cyber incidents to the DoD Cyber Crime Center (DC3) within 72 hours.
 
@@ -74,7 +74,9 @@ In the Department of Defense, procedures provide the detailed execution guidance
 * **DISA STIGs (Security Technical Implementation Guides)** serve as the primary step-by-step procedures for securing software, hardware, and networks. Developed by the Defense Information Systems Agency (DISA), STIGs function as exhaustive, product-specific checklists (e.g., Windows Server 2022 STIG, Cisco IOS Router STIG). Each STIG organizes actionable rules by severity: Category I (CAT I) for immediate high-severity actions, Category II (CAT II) for medium-severity requirements, and Category III (CAT III) for lower-priority baseline enhancements. `https://www.cyber.mil/stigs`
 * **CJCSM 6510.01B: Cyber Incident Handling Program** delivers exact tactical procedures for responding to network intrusions, data breaches, and insider threats. This manual establishes a mandatory pipeline that includes triage, categorization, isolation and containment, and timely reporting to USCYBERCOM and JFHQ-DODIN. `https://www.jcs.mil/Library/` 
 * **IAVM (Information Assurance Vulnerability Management)** outlines mandatory procedures for patching vulnerabilities across the DoD. The program converts CVE data into actionable orders through IAVA (immediate patching) and IAVB (scheduled maintenance) alerts. System administrators run automated scans, apply verified patches, and report compliance back to USCYBERCOM. `https://iavm.csd.disa.mil/` 
-* **CCRI (Command Cyber Readiness Inspection)** provides the formal audit procedure to verify compliance with policies and standards. Inspection teams conduct on-site reviews of networks, systems, and RMF packages using automated checklists to confirm STIG application and physical security controls. `https://integrate.diat.mil/public`
+* **CCRI (Command Cyber Readiness Inspection)** provides the formal audit procedure to verify compliance with policies and standards. Inspection teams conduct on-site reviews of networks, systems, and RMF packages using automated checklists to confirm STIG application and physical security controls.
+
+> The CCRI framework was updated in 2025 to 3.0 and now goes by the Cyber Operations Readiness Assessment (CORA). This change hasn't been reflected in CompTIA's materials to my knowledge, but should be soon. You can learn more about it at `https://integrate.diat.mil/public`.
 
 ###### 4. Guideline (The Recommendation) 💡
 
@@ -111,6 +113,7 @@ When applying this to the SecurityX exam, it's helpful for to think through a sc
 Senior leaders build effective security programs through structured awareness initiatives, clear communication channels, robust reporting mechanisms, and strong management commitment. These elements ensure the organization translates policy into consistent daily practice.
 
 **Awareness and Training**  
+
 Organizations deliver ongoing security awareness and training programs to equip personnel with the knowledge and skills needed to protect information assets. Effective programs address multiple threat vectors through targeted modules:
 
 * **Phishing Awareness:** Training helps employees recognize and report suspicious emails, malicious links, and credential harvesting attempts.
@@ -120,16 +123,22 @@ Organizations deliver ongoing security awareness and training programs to equip 
 * **Operational Security (OPSEC):** Training emphasizes protection of critical information, indicators, and mission details from adversaries.
 * **Situational Awareness:** Programs develop the ability to recognize anomalous behavior and emerging threats in dynamic environments.
 
+> The publically sanitized version of the DoD Annual Cyber Awareness Training can be found at `https://public.cyber.mil/`
+
 **Communication**  
+
 Leaders establish clear, multi-channel communication processes that keep security objectives, expectations, and updates visible across all organizational levels.
 
-**Reporting**  
+**Reporting** 
+
 Organizations implement straightforward mechanisms for personnel to report security incidents, concerns, and near-misses without fear of retaliation. Effective reporting systems enable rapid response and continuous program improvement.
 
-**Management Commitment**  
+**Management Commitment** 
+
 Senior executives demonstrate visible support for the security program through resource allocation, policy endorsement, and active participation in security initiatives. This commitment sets the tone for the entire organization and reinforces accountability.
 
-**RACI Matrix**  
+**RACI Matrix**
+
 Teams use a Responsible, Accountable, Consulted, and Informed (RACI) matrix to clearly define roles and responsibilities within the security program. This tool eliminates confusion by mapping:
 
 * **Responsible:** The individual or team that performs the work.
@@ -156,6 +165,109 @@ The Department of Defense integrates these management elements into formal progr
 > - In DoD environments, the **Authorizing Official (AO)** typically remains **Accountable** for authorization decisions and risk acceptance.
 > - The **ISSO (Information System Security Officer)** often performs much of the hands-on RMF documentation and coordination within eMASS.
 > - This structure supports the continuous monitoring requirements of RMF Step 6 and ensures clear accountability during CCRIs and audits.
+
+---
+
+### Governance Frameworks
+
+Security architects use established governance frameworks to align IT operations with business objectives and regulatory requirements. Two widely adopted frameworks include Control Objectives for Information and Related Technologies (COBIT) and Information Technology Infrastructure Library (ITIL).
+
+**COBIT** 
+
+Organizations implement COBIT to establish effective IT governance and management. Developed by Information Systems Audit and Control Association (ISACA), COBIT helps enterprises align IT initiatives with business goals while managing risk and optimizing resources.
+
+COBIT 2019 organizes content around five domains:
+* **Evaluate, Direct and Monitor (EDM)**
+* **Align, Plan and Organize (APO)**
+* **Build, Acquire and Implement (BAI)**
+* **Deliver, Service and Support (DSS)**
+* **Monitor, Evaluate and Assess (MEA)**
+
+The framework rests on six governance principles and seven enablers (such as processes, organizational structures, and people/skills). Security professionals value COBIT for its clear control objectives and focus on measurable outcomes.
+
+**ITIL**  
+
+Organizations adopt ITIL to deliver high-quality IT services that create value for the business. ITIL 4 emphasizes a holistic, flexible approach centered on the Service Value System (SVS).
+
+Key components of ITIL 4 include:
+* **Four Dimensions of Service Management**: Organizations and people, Information and technology, Partners and suppliers, and Value streams and processes.
+* **Seven Guiding Principles**: Focus on value, start where you are, progress iteratively with feedback, collaborate and promote visibility, think and work holistically, keep it simple and practical, and optimize and automate.
+* **Service Value Chain**: Six activities (Plan, Improve, Engage, Design & Transition, Obtain/Build, and Deliver & Support) that organizations use to create and deliver services.
+
+ITIL promotes continual improvement and strong alignment between IT services and business needs.
+
+#### 🛡️ Governance Frameworks in DoD and Enterprise Environments
+
+The Department of Defense and defense contractors frequently integrate COBIT and ITIL principles alongside RMF to strengthen governance. COBIT supports clear accountability and risk optimization in RMF documentation, while ITIL practices improve service management, incident response efficiency, and operational maturity across DoD networks.
+
+Security architects leverage these frameworks to design robust, auditable governance structures that satisfy both commercial best practices and DoD compliance requirements.
+
+---
+
+#### Change/configuration management
+
+Security architects establish strong change and configuration management practices to maintain system integrity, reduce risk, and ensure traceability. Effective processes control modifications while preserving an accurate view of the environment.
+
+**Asset Management Life Cycle**
+
+Organizations manage assets through a structured life cycle that maximizes value and minimizes risk. The typical stages include:
+
+* **Planning and Acquisition**: Identify needs, evaluate options, and procure assets.
+* **Deployment and Implementation**: Install, configure, and integrate assets into the environment.
+* **Operation and Maintenance**: Monitor performance, apply updates, and maintain functionality.
+* **Retirement and Disposal**: Securely decommission, sanitize, and dispose of assets at end-of-life.
+
+This life cycle ensures assets remain secure, compliant, and cost-effective throughout their existence.
+
+**Configuration Management Database (CMDB)**
+
+Teams maintain a Configuration Management Database (CMDB) as a centralized repository that stores detailed information about IT assets and their relationships. A robust CMDB typically contains:
+
+* Configuration Items (CIs) such as hardware, software, networks, and documentation.
+* Attributes including version numbers, locations, owners, and dependencies.
+* Relationship mappings that show how components connect and rely on each other.
+* Change history and status tracking for each CI.
+
+The CMDB serves as the single source of truth for understanding the current state of the IT environment.
+
+**Asset Inventory**
+
+Organizations maintain a comprehensive asset inventory to track all hardware, software, and virtual assets. This inventory forms the foundation of both the asset management life cycle and the CMDB. It enables accurate risk assessment, licensing compliance, vulnerability management, and incident response. By keeping the asset inventory current and synchronized with the CMDB, security teams gain visibility into what exists, where it resides, and how changes affect the overall security posture.
+
+#### 🛡️ Change and Configuration Management in DoD Environments
+
+The DoD integrates rigorous change and configuration management into RMF. DoD organizations maintain detailed asset inventories within the Enterprise Mission Assurance Support Service (eMASS) and use CMDB capabilities to support continuous monitoring (RMF Step 6). Strict configuration control through STIGs and change advisory boards helps prevent unauthorized modifications and ensures systems remain compliant during CCRIs and audits.
+
+---
+
+#### Governance Risk and Compliance (GRC) Tools
+
+Security architects leverage GRC tools to streamline oversight, reduce manual effort, and maintain continuous alignment with policies and regulations. These platforms integrate multiple capabilities into a unified system.
+
+**Mapping**
+
+Teams use GRC tools to map security controls, policies, and risks to relevant frameworks and standards. This capability creates clear traceability between organizational requirements and specific controls, making audits and gap analyses more efficient.
+
+**Automation**
+
+GRC platforms automate repetitive tasks such as control testing, policy distribution, evidence collection, and workflow approvals. Automation significantly reduces human error and frees security personnel to focus on higher-value architecture and risk decisions.
+
+**Compliance Tracking**
+
+Organizations rely on GRC tools for real-time compliance tracking across multiple frameworks. These tools monitor control status, flag deficiencies, and generate compliance reports for internal stakeholders and external auditors.
+
+**Documentation**
+
+GRC systems serve as a centralized repository for storing and managing all governance artifacts, including policies, risk registers, system security plans (SSPs), and evidence of compliance. This ensures version control and easy retrieval during assessments.
+
+**Continuous Monitoring**
+
+Modern GRC tools enable continuous monitoring of the security posture. They aggregate data from various sources, provide dashboards with key risk indicators, and alert teams to emerging issues before they become significant violations.
+
+
+#### 🛡️ Governance Risk and Compliance (GRC) Tools in DoD Environments
+
+The DoD integrates GRC capabilities directly into the RMF lifecycle through platforms such as eMASS. These tools support control mapping to NIST SP 800-53, automate workflow approvals, track compliance status across commands and contractors, maintain comprehensive documentation, and enable continuous monitoring required under RMF Step 6. This integration strengthens accountability and simplifies preparation for inspections or audits.
 
 ---
 
