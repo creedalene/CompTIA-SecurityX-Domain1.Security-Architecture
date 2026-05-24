@@ -226,4 +226,4 @@ The DoD uses a formal **Risk Management Framework (RMF)** defined in **`DoDI 851
 
 ---
 
-*This document will be expanded with diagrams, templates, and labs in future revisions.*
+*This document is a living set of notes, and there will be future revisions.*
