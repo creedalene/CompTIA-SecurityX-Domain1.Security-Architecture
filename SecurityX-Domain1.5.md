@@ -106,3 +106,4 @@ The Department of Defense faces unique challenges when adopting AI due to nation
 
 ---
 
+*This document is a living set of notes, and there will be future revisions.*
