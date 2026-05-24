@@ -68,9 +68,3 @@ I place strong emphasis on:
 **Cree Dalene**  
 Senior Cybersecurity Assessor and Engineer  
 *Defending mission-critical environments through better architecture and governance.*
-
----
-
-> For purposes of maintaining the current legal structure, I will be using the term Department of Defense (DoD) throughout. There are efforts to codify Executive Order 14347 (5 Sep 2025), but until Congress officially changes the name, Department of War (DoW) only applies to public communications within the Executive Branch, ceremonial contexts, and non-statutory documents.
-> 
-> As it currently stands, DoW only applies to pre-1947 documentation, and is not presently relevant. I am aware that this could change should the vote pass in Congress to codify and implement the legal name change. So while DoD and DoW can be used interchangably, I will use DoD for this certification context.
