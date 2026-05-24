@@ -1,4 +1,4 @@
-# Security X Domain 1.1
+# Security X Domain 1.1: Implementing Governance Components
 
 **Given a set of organizational security requirements, implement the appropriate governance components.**
 
