@@ -226,9 +226,4 @@ The DoD uses a formal **Risk Management Framework (RMF)** defined in **`DoDI 851
 
 ---
 
-**Next Steps for Study:**
-- Build sample risk registers for both corporate and DoD scenarios.
-- Review `NIST SP 800-30` and `DoDI 8510.01`.
-- Practice breach response and crisis tabletop exercises.
-
 *This document will be expanded with diagrams, templates, and labs in future revisions.*
