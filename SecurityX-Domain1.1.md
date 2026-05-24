@@ -314,4 +314,4 @@ The DoD applies stringent data governance across all environments under the RMF 
 
 ---
 
-*This document will be expanded with diagrams, templates, and labs in future revisions.*
+*This document is a living set of notes, and there will be future revisions.*
