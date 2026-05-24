@@ -82,7 +82,7 @@ In the DoD, procedures provide the detailed execution guidance that turns policy
 * **IAVM (Information Assurance Vulnerability Management)** outlines mandatory procedures for patching vulnerabilities across the DoD. The program converts CVE data into actionable orders through IAVA (immediate patching) and IAVB (scheduled maintenance) alerts. System administrators run automated scans, apply verified patches, and report compliance back to USCYBERCOM. `https://iavm.csd.disa.mil/` 
 * **CCRI (Command Cyber Readiness Inspection)** provides the formal audit procedure to verify compliance with policies and standards. Inspection teams conduct on-site reviews of networks, systems, and RMF packages using automated checklists to confirm STIG application and physical security controls.
 
-> The CCRI framework was updated in 2025 to 3.0 and now goes by the Cyber Operations Readiness Assessment (CORA). This change hasn't been reflected in CompTIA's materials to my knowledge, but should be soon. You can learn more about it at `https://integrate.diat.mil/public`.
+> The CCRI framework was updated in 2024 to 3.0 and now goes by the Cyber Operations Readiness Assessment (CORA). This change hasn't been reflected in CompTIA's materials to my knowledge, but should be soon. You can learn more about it at `https://integrate.diat.mil/` (CAC enforced) or `https://www.cybercom.mil/Media/News/Article/3689870/jfhq-dodin-to-officially-launch-its-new-cyber-operational-readiness-assessment/` (public release).
 
 **4. Guideline (The Recommendation) 💡**
 
