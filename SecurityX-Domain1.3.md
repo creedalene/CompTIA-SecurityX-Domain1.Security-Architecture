@@ -150,3 +150,4 @@ The DoD integrates compliance into the **Risk Management Framework (RMF)** (`DoD
 
 ---
 
+*This document is a living set of notes, and there will be future revisions.*
