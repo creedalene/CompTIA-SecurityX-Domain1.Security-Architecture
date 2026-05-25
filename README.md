@@ -37,7 +37,11 @@ I built this to help senior cybersecurity professionals and defense contractors 
 This domain makes up approximately **25%** of the SecurityX exam and focuses on translating organizational security requirements into effective governance structures, risk management practices, and compliance strategies.
 
 ### Detailed Notes
-- **[SecurityX Domain 1.1 - Governance Components](https://github.com/creedalene/CompTIA-SecurityX-Domain1.Governance-Risk-Compliance/blob/main/SecurityX-Domain1.1.md)** ← *Currently the only active detailed file*
+- **[SecurityX (CAS-005) Domain 1.1: Governance Components](https://github.com/creedalene/CompTIA-SecurityX-Domain1.Governance-Risk-Compliance/blob/main/SecurityX-Domain1.1.md)**
+- **[SecurityX (CAS-005) Domain 1.2: Risk Management Activities](https://github.com/creedalene/CompTIA-SecurityX-Domain1.Governance-Risk-Compliance/blob/main/SecurityX-Domain1.1.md)**
+- **[SecurityX (CAS-005) Domain 1.3: Compliance and Information Security Strategies](https://github.com/creedalene/CompTIA-SecurityX-Domain1.Governance-Risk-Compliance/blob/main/SecurityX-Domain1.3.md)**
+- **[SecurityX (CAS-005) Domain 1.4: Threat Modeling Activities](https://github.com/creedalene/CompTIA-SecurityX-Domain1.Governance-Risk-Compliance/blob/main/SecurityX-Domain1.4.md)**
+- **[SecurityX (CAS-005) Domain 1.5: Artificial Intelligence (AI) Adoption Challenges](https://github.com/creedalene/CompTIA-SecurityX-Domain1.Governance-Risk-Compliance/blob/main/SecurityX-Domain1.5.md)**
 
 ### Key Topics
 - Security program documentation and the governance hierarchy (Policy → Standard → Procedure → Guideline)
